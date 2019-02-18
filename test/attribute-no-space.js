@@ -9,7 +9,7 @@ require(__dirname).test({
     [ 'closetag', 'root' ]
   ],
   strict: false,
-  opt: { lowercase: true }
+  opt: { nameCase: 'lower' }
 })
 
 // strict: should give an error, but still parse

@@ -11,7 +11,7 @@ require(__dirname).test({
     [ 'closetag', 'xml' ]
   ],
   strict: false,
-  opt: { lowercasetags: true, noscript: true }
+  opt: { nameCase: 'lower', noscript: true }
 })
 
 require(__dirname).test({
@@ -28,5 +28,5 @@ require(__dirname).test({
     [ 'closetag', 'xml' ]
   ],
   strict: false,
-  opt: { lowercasetags: true, noscript: true }
+  opt: { nameCase: 'lower', noscript: true }
 })

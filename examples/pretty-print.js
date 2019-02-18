@@ -1,5 +1,5 @@
 var sax = require('../lib/sax'),
-  printer = sax.createStream(false, {lowercasetags: true, trim: true}),
+  printer = sax.createStream(false, {nameCase: 'lower', trim: true}),
   fs = require('fs')
 
 function entity (str) {

@@ -4,14 +4,14 @@ require(__dirname).test({
     [
       'opentagstart',
       {
-        'name': 'HTML',
+        'name': 'html',
         'attributes': {}
       }
     ],
     [
       'opentag',
       {
-        'name': 'HTML',
+        'name': 'html',
         'attributes': {},
         'isSelfClosing': false
       }
@@ -19,14 +19,14 @@ require(__dirname).test({
     [
       'opentagstart',
       {
-        'name': 'HEAD',
+        'name': 'head',
         'attributes': {}
       }
     ],
     [
       'opentag',
       {
-        'name': 'HEAD',
+        'name': 'head',
         'attributes': {},
         'isSelfClosing': false
       }
@@ -34,14 +34,14 @@ require(__dirname).test({
     [
       'opentagstart',
       {
-        'name': 'SCRIPT',
+        'name': 'script',
         'attributes': {}
       }
     ],
     [
       'opentag',
       {
-        'name': 'SCRIPT',
+        'name': 'script',
         'attributes': {},
         'isSelfClosing': false
       }
@@ -52,15 +52,15 @@ require(__dirname).test({
     ],
     [
       'closetag',
-      'SCRIPT'
+      'script'
     ],
     [
       'closetag',
-      'HEAD'
+      'head'
     ],
     [
       'closetag',
-      'HTML'
+      'html'
     ]
   ]
 })
